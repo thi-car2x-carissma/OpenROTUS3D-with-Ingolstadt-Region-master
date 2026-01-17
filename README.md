@@ -128,12 +128,12 @@ git clone https://github.com/thi-car2x-carissma/OpenROTUS3D-with-Ingolstadt-Regi
 ### Map Selection Menu
 Select from multiple pre-configured regions including Ingolstadt, Eichstätt, Frankfurt Center, and more.
 
-![Map Selection](screenshots/map_selection.png)
+
 
 ### Driving Simulation View
 First-person cockpit view with real-time HUD displaying speed (km/h), steering angle, gear, and brake status.
 
-![Simulation View](screenshots/simulation_view.png)
+
 
 ---
 
