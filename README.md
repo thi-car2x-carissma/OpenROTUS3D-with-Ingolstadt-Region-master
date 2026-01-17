@@ -72,7 +72,7 @@ Before starting, ensure you have the following installed:
 
 | Component | Minimum | Recommended |
 |-----------|---------|-------------|
-| OS | Windows 10 | Windows 10/11 | Linux
+| OS | Windows 10/Linux | Windows 10/11 | Linux
 | CPU | Intel i5 / AMD Ryzen 5 | Intel i7 / AMD Ryzen 7 |
 | RAM | 8 GB | 16 GB |
 | GPU | Dedicated GPU with 2GB VRAM | NVIDIA GTX 1060 or better |
