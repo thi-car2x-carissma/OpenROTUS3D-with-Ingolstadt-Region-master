@@ -6,18 +6,18 @@
 
 ### Features
 An overview of OpenROUTS3D and its features can be found in 
-S. Neumeier, M. Höpp and C. Facchi, _"Yet Another Driving Simulator OpenROUTS3D: The Driving Simulator for Teleoperated Driving,"_ IEEE International Conference on Connected Vehicles and Expo (ICCVE), 2019, doi: [10.1109/ICCVE45908.2019.8965037](https://ieeexplore.ieee.org/document/8965037). Key features are
+S. Neumeier, M. Höpp and C. Facchi, _"Yet Another Driving Simulator OpenROUTS3D: The Driving Simulator for Teleoperated Driving,"_ IEEE International Conference on Connected Vehicles and Expo (ICCVE), 2019, doi: [10.1109/ICCVE45908.2019.8965037](https://ieeexplore.ieee.org/document/8965037). Key features are:
 
-- Map and Artificial Traffic Creation
-- Input and Output management for Teloperated Driving
-- Logging System and Replay Feature
-- Simulation of Sensors
+- Map and artificial traffic creation
+- Input and output management for teloperated driving
+- Logging system and replay feature
+- Simulation of sensors
 - Multiplayer
-- User Study Mode
-- Addon-System
+- User study mode
+- Addon system
 
 ### Extensions to the original OpenROUTS3D framework: Regional traffic simulation coverage for Ingolstadt-Munich area
-This extension to the original OpenROUTS3D framework include:
+This extension compared to the original OpenROUTS3D framework include:
 - Simulation scenes for multiple villages and districts in the Ingolstadt region
 - Simulation scenes for areas surrounding Munich
 - Integration of SUMO traffic data with OpenStreetMap geographic data
@@ -28,15 +28,15 @@ This extension to the original OpenROUTS3D framework include:
 ### Installation + Execution
 Clone the repository and put it in your device's disk 
 import it into the Unity Hub (choose Option- Add -> Add Project from Disk).
-When errors occur, please clear the console and check if the packagemanager is included (Window -> Package Mangager).
+When errors occur, please clear the console and check if the package manager is included (Window -> Package Mangager).
 If that's not the case, close the Unity-Editor and delete the file "manifest.json" in the directory packages in your project directory. 
 Start the Unity-Editor again.
 
-Instruction for SUMO :
-If you want to use the features of Simulation of Urban MObility ([SUMO](https://www.dlr.de/ts/en/desktopdefault.aspx/tabid-9883/16931_read-41000/)), install Version 1.5. After the installation, you may need to **restart** your PC.
+Instruction for SUMO:
+If you want to use the features of ([SUMO](https://www.dlr.de/ts/en/desktopdefault.aspx/tabid-9883/16931_read-41000/)), install SUMO Version 1.5. After the installation, you may need to **restart** your PC.
 
-Instruction for steering wheel and pedals
-Find the axis in unity which is being affected by steering wheel and pedals and than bind your wheel and pedals to that axis via "listen" command and it is most important to find which axis in Unity gives Positive , Negative and zero only than choose that axis and in Unity properties of that input actions will be "Action type = Value" and "control type = Axis"
+Instruction for steering wheel and pedals:
+Find the axis in unity which is being affected by the steering wheel and the pedals, and bind your wheel and pedals to that axis via the "listen" command. It is most important to find which axis in Unity gives positive, negative and zero; only than choose that axis and in Unity properties of that input actions will be "Action type = Value" and "control type = Axis"
 
 #### Input-Configuration
 
