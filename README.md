@@ -6,7 +6,7 @@
 
 ### Features
 An overview of OpenROUTS3D and its features can be found in 
-S. Neumeier, M. Höpp and C. Facchi, "Yet Another Driving Simulator OpenROUTS3D: The Driving Simulator for Teleoperated Driving," IEEE International Conference on Connected Vehicles and Expo (ICCVE), 2019, doi: [10.1109/ICCVE45908.2019.8965037](https://ieeexplore.ieee.org/document/8965037). Key features are
+S. Neumeier, M. Höpp and C. Facchi, _"Yet Another Driving Simulator OpenROUTS3D: The Driving Simulator for Teleoperated Driving,"_ IEEE International Conference on Connected Vehicles and Expo (ICCVE), 2019, doi: [10.1109/ICCVE45908.2019.8965037](https://ieeexplore.ieee.org/document/8965037). Key features are
 
 - Map and Artificial Traffic Creation
 - Input and Output management for Teloperated Driving
