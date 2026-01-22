@@ -16,17 +16,16 @@ S. Neumeier, M. Höpp and C. Facchi, "Yet Another Driving Simulator OpenROUTS3D:
 - User Study Mode
 - Addon-System
 
-### Extend OpenROUTS3D framework: Regional traffic simulation coverage for Ingolstadt-Munich area
-
-This extension builds upon Stefan's original OpenROUTS3D work to provide:
+### Extensions to the original OpenROUTS3D framework: Regional traffic simulation coverage for Ingolstadt-Munich area
+This extension to the original OpenROUTS3D framework include:
 - Simulation scenes for multiple villages and districts in the Ingolstadt region
 - Simulation scenes for areas surrounding Munich
 - Integration of SUMO traffic data with OpenStreetMap geographic data
 - Bug fixes for PhysX mesh collider creation with short road segments
 - Enhanced error handling in SumoStreetImporter.cs for robust SUMO-Unity integration
-- typical error while generating .net.xml is due to collidation of street co-ordinates.
-### Installation + Execution
+- Error fixes while generating .net.xml due to collidation of street co-ordinates.
 
+### Installation + Execution
 Clone the repository and put it in your device's disk 
 import it into the Unity Hub (choose Option- Add -> Add Project from Disk).
 When errors occur, please clear the console and check if the packagemanager is included (Window -> Package Mangager).
@@ -36,7 +35,7 @@ Start the Unity-Editor again.
 Instruction for SUMO :
 If you want to use the features of Simulation of Urban MObility ([SUMO](https://www.dlr.de/ts/en/desktopdefault.aspx/tabid-9883/16931_read-41000/)), install Version 1.5. After the installation, you may need to **restart** your PC.
 
-Instruction For Steering wheel and Pedals
+Instruction for steering wheel and pedals
 Find the axis in unity which is being affected by steering wheel and pedals and than bind your wheel and pedals to that axis via "listen" command and it is most important to find which axis in Unity gives Positive , Negative and zero only than choose that axis and in Unity properties of that input actions will be "Action type = Value" and "control type = Axis"
 
 #### Input-Configuration
