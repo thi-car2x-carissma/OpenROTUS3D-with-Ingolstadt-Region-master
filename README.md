@@ -5,9 +5,7 @@
 [![Unity](https://img.shields.io/badge/Unity-2019.4.0f1-black.svg)](https://unity.com/)
 [![SUMO](https://img.shields.io/badge/SUMO-1.5-green.svg)](https://sumo.dlr.de/)
 
-<p align="center">
-  <img src="Docs/img/logo.png" alt="OpenROUTS3D Logo" width="200">
-</p>
+
 
 **OpenROUTS3D** (**Open** **R**ealtime **O**SM- and **U**nity-based **T**raffic **S**imulator **3D**) is a multi-purpose driving simulator developed for the needs of Teleoperated Driving. This repository is an extension of the [original version](https://github.com/sneumeier/OpenROUTS3D) developed by Dr. Stefan Neumeier, featuring regional traffic simulation coverage for the Ingolstadt-Munich area.
 
